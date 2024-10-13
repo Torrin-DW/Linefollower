@@ -9,11 +9,11 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
 
 microcontroller:
 
-motors: 
+motors: 50:1
 
-h-bridge:
+h-bridge: DRV8835
 
-sensors:
+sensors: 
 
 batteries:
 
