@@ -7,21 +7,21 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP32
 
 motors: 50:1
 
 h-bridge: DRV8835
 
-sensors: 
+sensors: QTR-8A
 
-batteries:
+batteries: 6 x AA-batterijen
 
-wireless communication:
+wireless communication: Bluetooth
 
-distance sensor - motors:
+distance sensor - motors: 10cm
 
-weight:
+weight: TBA
 
-speed: 
+speed: TBA
 
