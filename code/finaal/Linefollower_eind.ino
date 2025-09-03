@@ -18,7 +18,7 @@ float iTerm;
 float lastErr;
 int hMotor = 13;
 int knop = 7;
-int x = 0;
+
 
 struct param_t
 {
@@ -291,7 +291,7 @@ void onStop(){
 }
 
 void startKnop(){
-    if (x == 0)
+    if (running == false)
   {
     running = true;
     SerialPort.println("Start");
@@ -299,7 +299,7 @@ void startKnop(){
 
   }
 
-  else if (x == 1)
+  else if (running == true)
   {
 
     running = false;
