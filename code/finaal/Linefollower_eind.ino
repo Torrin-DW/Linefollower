@@ -294,6 +294,7 @@ void startKnop(){
     if (running == false)
   {
     running = true;
+    digitalWrite(hMotor, HIGH);
     SerialPort.println("Start");
    
 
@@ -303,6 +304,7 @@ void startKnop(){
   {
 
     running = false;
+    digitalWrite(hMotor, LOW);
     SerialPort.println("Stop");
     
     
